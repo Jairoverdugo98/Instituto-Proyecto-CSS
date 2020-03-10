@@ -51,8 +51,6 @@ main{
     display: flex;
     }
 
-    
-
     header{
         font-size: 25px;
     }
@@ -67,6 +65,22 @@ main{
 
     .der{
         flex: 20%;
+    }
+
+    #button li a{
+        font-size: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 28.5px;
+        padding-right: 28.5px;
+    }
+
+    .bi{
+        font-size: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 28.5px;
+        padding-right: 28.5px;
     }
 }
 
@@ -88,7 +102,7 @@ main{
         padding: 0px;
     }
 
-    .bne{
+    .bi{
         font-size: 12px;
         padding: 0px;
     }

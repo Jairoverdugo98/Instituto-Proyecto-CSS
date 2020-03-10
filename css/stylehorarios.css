@@ -77,17 +77,23 @@ main{
     }
     #button li a{
         font-size: 15px;
-        padding: 0px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 28.5px;
+        padding-right: 28.5px;
     }
 
     .bh{
         font-size: 15px;
-        padding: 0px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 28.5px;
+        padding-right: 28.5px;
     }
 
     table tr th{
         font-size: 17px;
-        padding: 5px;
+        
     }
 
     table tr td {
@@ -112,7 +118,7 @@ main{
         font-size: 12px;
     }
 
-    .bne{
+    .bh{
         font-size: 12px;
     }
     
