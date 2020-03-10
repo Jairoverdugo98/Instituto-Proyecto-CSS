@@ -1,0 +1,96 @@
+body{margin: 0; background-color: #0C2745;}
+header{height: 100px; background-color: #1E5A9F;}
+nav{height: 45px; background-color: #468CDC;}
+footer{height: 100px;background-color: #0C2745; color: #96C1F3; text-align: center;}
+aside{background-color: #96C1F3;}
+article{height: 600px; background-color: white; border: 1px solid #001833; padding: 10px;}
+.logo{height: 90px; width: 90px;}
+.imagen{padding-top: 20px;width: 500px; height: 300px; display:block; margin:auto;}
+.imag{width: 220px; height: 150px; margin-left: 5px; margin-right: 5px; border: double 2px rgb(0, 0, 114);}
+.izq li{border: dotted 1px rgb(0, 0, 114) ;}
+/*Menu*/
+#button {padding: 0;}
+#button li {display: inline;}
+#button li a {font-size: 20px;text-decoration: none;float: left;padding: 10px;background-color:white;color: black; border: 1px solid #001833 }
+#button li a:hover {background-color:rgb(100, 154, 255); color: black;}
+.bi {font-size: 20px;text-decoration: none;float: left;padding: 10px;background-color:white;color: black; border: 1px solid #001833 }
+
+/*TIPOGRAFIA*/
+html{font-family: Arial;}
+header{color: white; font-size: 35px;}
+main{color:#1E5A9F;}
+.izq{color: rgb(0, 69, 133); padding: 10px;}
+.der{color: rgb(0, 69, 133); font-size: 20px; text-align: center; padding: 10px;}
+.logos{width: 30px; height: 30px; margin-left: 50px;}
+main article h1 {font-size: 32px;}
+
+/*POSICIONAMIENTO*/
+
+/*PC*/
+#contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.izq{
+    flex: 15%;
+}
+
+main{
+    flex: 70%;
+}
+
+.der{
+    flex: 15%;
+}
+
+/*Tablet*/
+@media screen and  (max-width: 768px){
+    
+    #contenedor{
+    display: flex;
+    }
+
+    
+
+    header{
+        font-size: 25px;
+    }
+
+    .izq{
+        display: none;
+    }
+
+    main{
+        flex: 80%;
+    }
+
+    .der{
+        flex: 20%;
+    }
+}
+
+/*Movil*/
+@media screen and (max-width: 426px){
+
+    header{
+        font-size: 12px;
+    }
+    main{
+        flex: 100%;
+    }
+
+    .der{
+        display: none;
+    }
+    #button li a{
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .bne{
+        font-size: 12px;
+        padding: 0px;
+    }
+    
+}
