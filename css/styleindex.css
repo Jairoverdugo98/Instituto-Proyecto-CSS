@@ -99,12 +99,14 @@ main{
     }
     #button li a{
         font-size: 12px;
-        padding: 0px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
+
 
     .bi{
         font-size: 12px;
-        padding: 0px;
-    }
-    
+        padding-left: 2px;
+        padding-right: 2px;
+    }    
 }

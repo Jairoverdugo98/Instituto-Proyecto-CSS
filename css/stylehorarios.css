@@ -116,10 +116,14 @@ main{
     }
     #button li a{
         font-size: 12px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 
     .bh{
         font-size: 12px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     
     table tr th{
